@@ -24,7 +24,11 @@ for(delBtn of delBtns){
     delBtn.addEventListener("click",function(){
         console.log("element deleted");
     
-        console.log(this.item);
-        par.remove();S
+        
+        par.remove();
     });
 }
+
+ul.addEventListener("click",function(){
+    console.log("button clicked");
+});
