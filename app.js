@@ -19,16 +19,21 @@ btn.addEventListener("click",function(){
 });
  
 
-let delBtns = document.querySelectorAll(".delete");
-for(delBtn of delBtns){
-    delBtn.addEventListener("click",function(){
-        console.log("element deleted");
+// let delBtns = document.querySelectorAll(".delete");
+// for(delBtn of delBtns){
+//     delBtn.addEventListener("click",function(){
+//         console.log("element deleted");
     
         
-        par.remove();
-    });
-}
+//         par.remove();
+//     });
+// }
 
-ul.addEventListener("click",function(){
+ul.addEventListener("click",function(event){
+   console.dir(event.target.nodeName);
     console.log("button clicked");
+    if(event.target.nodeName == "BUTTON"){
+        let listItem = event.target.parentElement;
+        listItem.remove();
+    }
 });
