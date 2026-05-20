@@ -25,9 +25,13 @@ It allows users to add and delete tasks easily.
 ## 📂 Folder Structure
 
 │
+
 ├── index.html
+
 ├── style.css
+
 ├── app.js
+
 └── README.md
 
 ## How to Run
