@@ -22,7 +22,7 @@ It allows users to add and delete tasks easily.
 
 ---
 
-## 📂 Project Structure
+## 📂 Folder Structure
 
 │
 ├── index.html
