@@ -17,17 +17,7 @@ btn.addEventListener("click",function(){
     ul.appendChild(item);
     inp.value = "";
 });
- 
 
-// let delBtns = document.querySelectorAll(".delete");
-// for(delBtn of delBtns){
-//     delBtn.addEventListener("click",function(){
-//         console.log("element deleted");
-    
-        
-//         par.remove();
-//     });
-// }
 
 ul.addEventListener("click",function(event){
    console.dir(event.target.nodeName);
